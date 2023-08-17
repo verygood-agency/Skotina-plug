@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Politica';
+    src: url('Politica-Italic.eot');
+    src: local('Politica Italic'), local('Politica-Italic'),
+        url('Politica-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Politica-Italic.woff2') format('woff2'),
+        url('Politica-Italic.woff') format('woff'),
+        url('Politica-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('PoliticaThin.eot');
+    src: local('Politica Thin'), local('PoliticaThin'),
+        url('PoliticaThin.eot?#iefix') format('embedded-opentype'),
+        url('PoliticaThin.woff2') format('woff2'),
+        url('PoliticaThin.woff') format('woff'),
+        url('PoliticaThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('Politica-BoldItalic.eot');
+    src: local('Politica Bold Italic'), local('Politica-BoldItalic'),
+        url('Politica-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Politica-BoldItalic.woff2') format('woff2'),
+        url('Politica-BoldItalic.woff') format('woff'),
+        url('Politica-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('PoliticaLight.eot');
+    src: local('Politica Light'), local('PoliticaLight'),
+        url('PoliticaLight.eot?#iefix') format('embedded-opentype'),
+        url('PoliticaLight.woff2') format('woff2'),
+        url('PoliticaLight.woff') format('woff'),
+        url('PoliticaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('Politica.eot');
+    src: local('Politica'),
+        url('Politica.eot?#iefix') format('embedded-opentype'),
+        url('Politica.woff2') format('woff2'),
+        url('Politica.woff') format('woff'),
+        url('Politica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('PoliticaThin-Italic.eot');
+    src: local('Politica Thin Italic'), local('PoliticaThin-Italic'),
+        url('PoliticaThin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PoliticaThin-Italic.woff2') format('woff2'),
+        url('PoliticaThin-Italic.woff') format('woff'),
+        url('PoliticaThin-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('PoliticaLight-Italic.eot');
+    src: local('Politica Light Italic'), local('PoliticaLight-Italic'),
+        url('PoliticaLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PoliticaLight-Italic.woff2') format('woff2'),
+        url('PoliticaLight-Italic.woff') format('woff'),
+        url('PoliticaLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Politica';
+    src: url('Politica-Bold.eot');
+    src: local('Politica Bold'), local('Politica-Bold'),
+        url('Politica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Politica-Bold.woff2') format('woff2'),
+        url('Politica-Bold.woff') format('woff'),
+        url('Politica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

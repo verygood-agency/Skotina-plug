@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Semibold.eot");
+  src: local("Lato Semibold"), local("Lato-Semibold"), url("../fonts/Lato/Lato-Semibold.eot") format("embedded-opentype"), url("../fonts/Lato/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato/Lato-Semibold.woff") format("woff"), url("../fonts/Lato/Lato-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Bold.eot");
+  src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/Lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff"), url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Politica";
+  src: url("Politica-Bold.eot");
+  src: local("Politica Bold"), local("Politica-Bold"), url("../fonts/Politica/Politica-Bold.eot") format("embedded-opentype"), url("../fonts/Politica/Politica-Bold.woff2") format("woff2"), url("../fonts/Politica/Politica-Bold.woff") format("woff"), url("../fonts/Politica/Politica-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html *,
+html *::before,
+html *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 375px;
+  background-color: #190101;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  position: relative;
+  overflow-x: hidden;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+input,
+textarea,
+a,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1288px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.first-screen {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+@media (max-width: 1024px) {
+  .first-screen {
+    background-image: url(../img/bg-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .first-screen {
+    background-image: url(../img/bg-768.jpg);
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.first-screen__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.first-screen__logo {
+  display: block;
+  max-width: 242px;
+  margin-bottom: 58px;
+}
+@media (max-width: 768px) {
+  .first-screen__logo {
+    margin-bottom: 32px;
+  }
+}
+.first-screen__title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Politica", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+  margin-bottom: 77px;
+  max-width: 250px;
+  letter-spacing: 3px;
+}
+@media (max-width: 768px) {
+  .first-screen__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}
+.first-screen__subtitle {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.first-screen__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 480px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .first-screen__list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    max-width: 100%;
+    width: initial;
+    margin: 0 auto;
+  }
+}
+.first-screen__item {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.first-screen__item a {
+  display: block;
+  text-decoration: underline;
+}
